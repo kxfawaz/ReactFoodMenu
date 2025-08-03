@@ -1,0 +1,89 @@
+/* FoodMenu.css */
+
+/* Container spacing */
+.col-md-4 {
+  margin-top: 1rem;
+}
+
+/* Card styling */
+.col-md-4 .card {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f0f4f8;
+  overflow: hidden;
+}
+
+/* Card body padding */
+.col-md-4 .card-body {
+  padding: 1.25rem;
+}
+
+/* Title styling */
+.col-md-4 .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* Text styling */
+.col-md-4 .card-text {
+  color: #495057;
+  margin-bottom: 1.5rem;
+}
+
+/* List group adjustments */
+.col-md-4 .list-group {
+  padding: 0;
+}
+
+/* List items */
+.col-md-4 .item-name {
+  padding: 0.75rem 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  color: #212529;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Hover effect */
+.col-md-4 .item-name:hover {
+  background-color: #0056b3;
+  color: #fff;
+  transform: translateX(4px);
+}
+
+/* Link reset */
+.col-md-4 a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Form container under the list */
+.menu-form .my-4 {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Make form controls full-width */
+.menu-form .my-4 input,
+.menu-form .my-4 textarea,
+.menu-form .my-4 .btn {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+/* Remove extra bottom margin on last control */
+.menu-form .my-4 .btn {
+  margin-bottom: 0;
+}

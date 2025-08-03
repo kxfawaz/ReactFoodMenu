@@ -1,0 +1,63 @@
+.my-4 {
+  width:700px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2;
+}
+
+/* Heading centered and styled */
+.my-4 h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Space between each form group */
+.my-4 .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Labels bolded and colored */
+.my-4 label {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Inputs & textareas full width with padding and subtle borders */
+.my-4 input,
+.my-4 textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Focus state highlight */
+.my-4 input:focus,
+.my-4 textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+/* Button full width, primary color, with hover effect */
+.my-4 .btn {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.my-4 .btn:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
